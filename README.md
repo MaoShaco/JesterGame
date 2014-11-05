@@ -1,5 +1,3 @@
 JesterGame
 ==========
-####1. Что-то подобное на TD games (Tower Defense);
-####2. Или игры типа три в ряд;
-####3. Или простейший платформер, типа марио.
+#### The simplest platform game (Jump - Run with Victories and Defeats)
