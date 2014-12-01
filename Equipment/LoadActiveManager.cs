@@ -10,9 +10,9 @@ public class LoadActiveManager
     #endregion
 
     #region Constructor
-    public LoadActiveManager(ContentManager Content)
+    public LoadActiveManager(ContentManager ContentManager)
     {
-        this.ContentManager = Content;
+        this.ContentManager = ContentManager;
     }
     #endregion
 

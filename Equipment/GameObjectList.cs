@@ -19,7 +19,7 @@ public class GameObjectList : GameObject
     #region Methods
     public void Add(GameObject obj)
     {
-        obj.Previous = this;
+        obj.Parent = this;
         for (int i = 0; i < gameObjects.Count; i++)
         {
             if (gameObjects[i].Layer > obj.Layer)
@@ -34,7 +34,7 @@ public class GameObjectList : GameObject
     public void Remove(GameObject obj)
     {
         gameObjects.Remove(obj);
-        obj.Previous = null;
+        obj.Parent = null;
     }
 
     public GameObject Find(string ID)

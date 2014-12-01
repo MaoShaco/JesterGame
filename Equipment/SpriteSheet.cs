@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -68,6 +68,16 @@ public class SpriteSheet
         if (Mirror)
             spriteEffects = SpriteEffects.FlipHorizontally;
         spriteBatch.Draw(Sprite, position, spritePart, Color.White, 0.0f, origin, 1.0f, spriteEffects, 0.0f);
+    }
+
+    public Color GetPixelColor(int x, int y)
+    {
+        int column_index = SheetIndex % SheetColumns;
+        int row_index = SheetIndex / SheetColumns % SheetRows;
+        Rectangle sourceRectangle = new Rectangle(column_index * this.SheetWidth + x, row_index * this.SheetHeight + y, 1, 1);
+        Color[] retrievedColor = new Color[1];
+        Sprite.GetData<Color>(0, sourceRectangle, retrievedColor, 0, 1);
+        return retrievedColor[0];
     }
     #endregion
 }

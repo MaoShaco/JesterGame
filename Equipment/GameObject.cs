@@ -4,44 +4,78 @@ using Microsoft.Xna.Framework.Graphics;
 public abstract class GameObject : IGameLoopObject
 {
     #region Fields
-    public GameObject Previous { get; set; }
 
-    public Vector2 Position { get; set; }
-    public Vector2 GlobalPosition
+    public GameObject Parent { get; set; }
+
+    public int Layer { get; private set; }
+    public string ID { get; private set; }
+    public bool Visible { get; set; }
+
+    protected Vector2 position;
+
+    public virtual Vector2 Position
+    {
+        get { return position; }
+        set { position = value; }
+    }
+    protected Vector2 velocity;
+
+    public virtual Vector2 Velocity
+    {
+        get { return velocity; }
+        set { velocity = value; }
+    }
+
+    public GameObject Root
     {
         get
         {
-            if (Previous != null)
-                return Previous.GlobalPosition + this.Position;
+            if (Parent != null)
+                return Parent.Root;
+            else
+                return this;
+        }
+    }
+
+    public GameObjectList GameWorld
+    {
+        get
+        {
+            return Root as GameObjectList;
+        }
+    }
+
+    public virtual Vector2 GlobalPosition
+    {
+        get
+        {
+            if (Parent != null)
+                return Parent.GlobalPosition + this.Position;
             else
                 return this.Position;
         }
     }
-    public Vector2 Speed { get; set; }
-
-    public int Layer { get; set; }
-    public string ID { get; set; }
-
     #endregion
 
-    #region Constructor
+    #region Concsturctor
     public GameObject(int Layer = 0, string ID = "")
     {
         this.Layer = Layer;
         this.ID = ID;
-        this.Position = Vector2.Zero;
-        this.Speed = Vector2.Zero;
+        this.position = Vector2.Zero;
+        this.velocity = Vector2.Zero; 
+        this.Visible = true;
     }
     #endregion
 
-    #region Prototypes
+    #region Methods
     public virtual void HandleInput(InputHelper inputHelper)
     {
     }
-
+    
     public virtual void Update(GameTime gameTime)
     {
-        Position += Speed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+        position += velocity * (float)gameTime.ElapsedGameTime.TotalSeconds;
     }
 
     public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -50,6 +84,15 @@ public abstract class GameObject : IGameLoopObject
 
     public virtual void Reset()
     {
+        Visible = true;
+    }
+
+    public virtual Rectangle BoundingBox
+    {
+        get
+        {
+            return new Rectangle((int)GlobalPosition.X, (int)GlobalPosition.Y, 0, 0);
+        }
     }
     #endregion
 }

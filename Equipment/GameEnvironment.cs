@@ -12,9 +12,14 @@ public class GameEnvironment : Game
     public InputHelper InputHelper { get; private set; }
     public Matrix SpriteScale { get; private set; }
 
-    public static Point Screen { get;set; }
+    public static Point Screen { get; set; }
     public static GameStateManager GameStateManager { get; private set; }
     public static LoadActiveManager LoadManager { get; private set; }
+
+    public static Random Random
+    {
+        get { return new Random(); }
+    }
 
     #endregion
 
@@ -39,7 +44,7 @@ public class GameEnvironment : Game
 
         if (!fullscreen)
         {
-            finalOffsetScale = Math.Min(offsetScaleX, offsetScaleY); 
+            finalOffsetScale = Math.Min(offsetScaleX, offsetScaleY);
         }
         else
         {

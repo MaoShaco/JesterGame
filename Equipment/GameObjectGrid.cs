@@ -33,7 +33,7 @@ public class GameObjectGrid : GameObject
     public void Add(GameObject obj, int x, int y)
     {
         Grid[x, y] = obj;
-        obj.Previous = this;
+        obj.Parent = this;
         obj.Position = new Vector2(x * CellWidth, y * CellHeight);
     }
 
