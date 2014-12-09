@@ -1,0 +1,6 @@
+c:\users\mao\documents\visual studio 2012\Projects\PoringRun\EquipmentForGame\bin\x86\Debug\EquipmentForGame.dll
+c:\users\mao\documents\visual studio 2012\Projects\PoringRun\EquipmentForGame\bin\x86\Debug\EquipmentForGame.pdb
+c:\users\mao\documents\visual studio 2012\Projects\PoringRun\EquipmentForGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\mao\documents\visual studio 2012\Projects\PoringRun\EquipmentForGame\obj\x86\Debug\EquipmentForGame.dll
+c:\users\mao\documents\visual studio 2012\Projects\PoringRun\EquipmentForGame\obj\x86\Debug\EquipmentForGame.pdb
+C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\EquipmentForGame\obj\x86\Debug\EquipmentForGame.csprojResolveAssemblyReference.cache

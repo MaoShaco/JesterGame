@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Backgrounds\spr_cloud_1.png</Source>
+      <Name>Backgrounds\spr_cloud_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_cloud_1.xnb</Output>
+      <Time>2014-11-30T15:56:21.8766043+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_cloud_2.png</Source>
+      <Name>Backgrounds\spr_cloud_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_cloud_2.xnb</Output>
+      <Time>2014-11-30T15:56:21.9078536+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_cloud_3.png</Source>
+      <Name>Backgrounds\spr_cloud_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_cloud_3.xnb</Output>
+      <Time>2014-11-30T15:56:21.9391047+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_cloud_4.png</Source>
+      <Name>Backgrounds\spr_cloud_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_cloud_4.xnb</Output>
+      <Time>2014-11-30T15:56:22.0484902+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_cloud_5.png</Source>
+      <Name>Backgrounds\spr_cloud_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_cloud_5.xnb</Output>
+      <Time>2014-11-30T15:56:22.0797413+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_levelselect.jpg</Source>
+      <Name>Backgrounds\spr_levelselect</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_levelselect.xnb</Output>
+      <Time>2014-12-09T16:01:26.9852608+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_mountain_1.png</Source>
+      <Name>Backgrounds\spr_mountain_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_mountain_1.xnb</Output>
+      <Time>2014-11-30T15:56:22.1891211+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_mountain_2.png</Source>
+      <Name>Backgrounds\spr_mountain_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_mountain_2.xnb</Output>
+      <Time>2014-11-30T15:56:22.2359993+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_sky.jpg</Source>
+      <Name>Backgrounds\spr_sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_sky.xnb</Output>
+      <Time>2014-11-30T15:56:22.2516264+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\spr_title.jpg</Source>
+      <Name>Backgrounds\spr_title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Backgrounds\spr_title.xnb</Output>
+      <Time>2014-12-09T15:58:33.4973347+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Overlays\spr_gameover.png</Source>
+      <Name>Overlays\spr_gameover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Overlays\spr_gameover.xnb</Output>
+      <Time>2014-11-30T15:56:22.6578931+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Overlays\spr_welldone.png</Source>
+      <Name>Overlays\spr_welldone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Overlays\spr_welldone.xnb</Output>
+      <Time>2014-11-30T15:56:22.6891392+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_button_play.png</Source>
+      <Name>Sprites\spr_button_play</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_button_play.xnb</Output>
+      <Time>2014-11-30T15:56:23.0329054+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_goal.png</Source>
+      <Name>Sprites\spr_goal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_goal.xnb</Output>
+      <Time>2014-11-30T15:56:23.0797881+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_level_locked.png</Source>
+      <Name>Sprites\spr_level_locked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_level_locked.xnb</Output>
+      <Time>2014-12-09T16:42:09.8340985+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_level_solved.png</Source>
+      <Name>Sprites\spr_level_solved</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_level_solved.xnb</Output>
+      <Time>2014-12-09T16:44:03.7493346+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_level_unsolved.png</Source>
+      <Name>Sprites\spr_level_unsolved</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_level_unsolved.xnb</Output>
+      <Time>2014-12-09T16:43:15.5387368+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_zeny.png</Source>
+      <Name>Sprites\spr_zeny</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_zeny.xnb</Output>
+      <Time>2014-12-09T15:50:20.7641515+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\spr_platform.png</Source>
+      <Name>Tiles\spr_platform</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Tiles\spr_platform.xnb</Output>
+      <Time>2014-12-09T15:41:00.849548+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\spr_platform_ice.png</Source>
+      <Name>Tiles\spr_platform_ice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Tiles\spr_platform_ice.xnb</Output>
+      <Time>2014-12-09T15:41:23.2146764+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\spr_wall.png</Source>
+      <Name>Tiles\spr_wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Tiles\spr_wall.xnb</Output>
+      <Time>2014-12-09T15:37:09.2885338+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\spr_wall_ice.png</Source>
+      <Name>Tiles\spr_wall_ice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Tiles\spr_wall_ice.xnb</Output>
+      <Time>2014-12-09T15:39:37.731292+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\snd_music.mp3</Source>
+      <Name>Sounds\snd_music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sounds\snd_music.xnb</Output>
+      <Extra>c:\users\mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sounds\snd_music.wma</Extra>
+      <Time>2014-12-09T16:06:17.5099399+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\snd_zeny_collected.wma</Source>
+      <Name>Sounds\snd_zeny_collected</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sounds\snd_zeny_collected.xnb</Output>
+      <Time>2014-11-30T15:56:22.939156+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Player\spr_run@8.png</Source>
+      <Name>Sprites\Player\spr_run@8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\Player\spr_run@8.xnb</Output>
+      <Time>2014-12-09T15:22:40.5804573+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Player\spr_die@3.png</Source>
+      <Name>Sprites\Player\spr_die@3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\Player\spr_die@3.xnb</Output>
+      <Time>2014-12-09T15:01:04.7330318+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Player\spr_jump@8.png</Source>
+      <Name>Sprites\Player\spr_jump@8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\Player\spr_jump@8.xnb</Output>
+      <Time>2014-12-09T15:26:29.0114066+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Player\spr_idle@4.png</Source>
+      <Name>Sprites\Player\spr_idle@4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\Player\spr_idle@4.xnb</Output>
+      <Time>2014-12-09T15:20:01.9543621+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Player\spr_celebrate@6.png</Source>
+      <Name>Sprites\Player\spr_celebrate@6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\Player\spr_celebrate@6.xnb</Output>
+      <Time>2014-12-09T15:29:16.9681804+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\snd_player_jump.wav</Source>
+      <Name>Sounds\snd_player_jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sounds\snd_player_jump.xnb</Output>
+      <Time>2014-12-09T16:16:50.0607139+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\snd_player_die.wav</Source>
+      <Name>Sounds\snd_player_die</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sounds\snd_player_die.xnb</Output>
+      <Time>2014-12-09T16:16:50.0607139+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\snd_player_fall.wav</Source>
+      <Name>Sounds\snd_player_fall</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sounds\snd_player_fall.xnb</Output>
+      <Time>2014-12-09T16:16:50.0607139+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\spr_button_back.png</Source>
+      <Name>Sprites\spr_button_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\Sprites\spr_button_back.xnb</Output>
+      <Time>2014-11-30T15:56:23.0016539+03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{7D98AAE8-F196-4DFA-9DC9-960465B4BD37}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRunContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Mao\documents\visual studio 2012\Projects\PoringRun\PoringRun\PoringRun\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-26T11:20:54.0000556+03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
