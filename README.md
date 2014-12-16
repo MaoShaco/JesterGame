@@ -1,3 +1,7 @@
-JesterGame
+#PoringRun
 ==========
-#### The simplest platform game (Jump - Run with Victories and Defeats)
+Курсовая работа ПОИТ 131 Некрашевич Андрей (maoshaco@gmail.com);
+
+Разработка игровых приложений (с объектно-ориентированной моделью сущностей игры и поведения);
+
+Игра выполнена c помощью Microsoft XNA Game Studio 4.0 c использованием языка С#;
