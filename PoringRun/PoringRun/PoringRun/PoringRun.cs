@@ -20,7 +20,7 @@ class PoringRun : GameEnvironment
         base.LoadContent();
 
         Screen = new Point(1440, 825);
-        this.SetFullScreen(false);
+        this.SetFullScreen(true);
 
         GameStateManager.Add("TitleMenu", new TitleMenuState());
         GameStateManager.Add("PlayingState", new PlayingState(Content));
