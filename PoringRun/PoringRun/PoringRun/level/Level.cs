@@ -7,6 +7,23 @@ partial class Level : GameObjectList
     public bool Locked { get; set; }
     public bool Solved { get; set; }
     private Button QuitButton;
+    private Score GameScore;
+
+    public bool Completed
+    {
+        get
+        {
+            SpriteGameObject exitObj = this.Find("exit") as SpriteGameObject;
+            Player player = this.Find("player") as Player;
+            if (!exitObj.CollidesWith(player))
+                return false;
+            GameObjectList ZenyS = this.Find("ZenyS") as GameObjectList;
+            foreach (GameObject d in ZenyS.gameObjects)
+                if (d.Visible)
+                    return false;
+            return true;
+        }
+    }
 
     public bool GameOver
     {
@@ -39,34 +56,22 @@ partial class Level : GameObjectList
         this.Add(backgrounds);
 
         QuitButton = new Button("Sprites/spr_button_back", 100);
-        QuitButton.Position = new Vector2(GameEnvironment.Screen.X - QuitButton.Sprite.SheetWidth - 10, GameEnvironment.Screen.Y - QuitButton.Sprite.SheetHeight - 10);
+        QuitButton.Position = new Vector2(10, 10);
         this.Add(QuitButton);
 
-
         this.Add(new GameObjectList(1, "ZenyS"));
-        this.Add(new GameObjectList(2, "enemies"));
 
         this.LoadTiles("Content/Levels/" + levelIndex + ".txt");
+
+        GameObjectList ZenyS = this.Find("ZenyS") as GameObjectList;
+
+        GameScore = new Score(ZenyS);
+        GameScore.Position = new Vector2(GameEnvironment.Screen.X - 60, 10);
+        this.Add(GameScore);
     }
 
     #endregion
     #region Methods
-
-    public bool Completed
-    {
-        get
-        {
-            SpriteGameObject exitObj = this.Find("exit") as SpriteGameObject;
-            Player player = this.Find("player") as Player;
-            if (!exitObj.CollidesWith(player))
-                return false;
-            GameObjectList ZenyS = this.Find("ZenyS") as GameObjectList;
-            foreach (GameObject d in ZenyS.gameObjects)
-                if (d.Visible)
-                    return false;
-            return true;
-        }
-    }
 
     public override void HandleInput(InputHelper inputHelper)
     {
