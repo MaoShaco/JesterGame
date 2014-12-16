@@ -150,7 +150,7 @@ class Player : AnimatedGameObject
         if (falling)
         {
             GameEnvironment.LoadManager.PlaySound("Sounds/snd_player_fall");
-            velocity.Y = -2000;
+            velocity.Y = -1000;
         }
         this.PlayAnimation("die");
     }
